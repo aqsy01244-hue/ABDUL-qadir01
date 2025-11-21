@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Senior Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://firebasestorage.googleapis.com/v0/b/student-senior-9fa03.appspot.com/o/1749214715855cropped_circle_image.png?alt=media&token=a9885f72-11b6-4dbc-87f9-08fbadf93487"
+                alt="Profile">
+            <h1><span id="h11">Student</span><span id="h12">Senior</span></h1>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Add College</a>
+            <a href="#">Collection</a>
+            <a href="#">Leaderboard</a>
+
+            <a href="/profile">
+                <img id="profile"
+                    src="https://firebasestorage.googleapis.com/v0/b/student-senior-9fa03.appspot.com/o/1749214715855cropped_circle_image.png?alt=media&token=a9885f72-11b6-4dbc-87f9-08fbadf93487"
+                    alt="Profile">
+            </a>
+        </div>
+        <div class="menuicon">
+            <i class="fa-solid fa-bars" id="menuicon"></i>
+        </div>
+    </header>
+
+
+
+    <section id="hero">
+        <div class="content">
+            <h1>Discover Your <span>College Journey</span></h1>
+            <p>Find resources, connect with seniors, and unlock your academic potential.</p>
+
+            <select name="" id="collegeSelect">
+                <option value="">Select Your College</option>
+                <option value="">College 1</option>
+                <option value="">College 2</option>
+            </select>
+        </div>
+        <div class="heroimg">
+            <img src="https://abalone-bill-ca2.notion.site/image/attachment%3Ad5434d49-5f46-4ca4-8e9b-bbc91b585f5d%3AScreenshot_2025-09-30_223432.png?table=block&id=27ec61e9-d2cf-8093-a4da-c2cd6b1dc6d5&spaceId=35becf35-e397-4667-b99a-dc8a3f3d763a&width=850&userId=&cache=v2" alt="hero image">
+        </div>
+    </section>
+
+
+
+
+    <section id="quickaccess">
+        <h1>Quick Access</h1>
+
+        <div class="quickaccesslinks">
+            <div class="links">
+                <i class="fa-solid fa-bolt"></i>
+                <span>Pyqs</span>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-note-sticky"></i>
+                <span>Notes</span>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-book"></i>
+                <span>Resources</span>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-book"></i>
+                <span>Resources</span>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-book"></i>
+                <span>Resources</span>
+            </div>
+            <div class="links">
+                <i class="fa-solid fa-book"></i>
+                <span>Resources</span>
+            </div>
+        </div>
+        <div class="install">
+            <i class="fa-solid fa-mobile"></i>
+            <span>Install the app for quicker access! Better experience on mobile!</span>
+            <button>Install App</button>
+        </div>
+    </section>
+
+
+
+    <section id="stats">
+
+        <h1>A Platform Trusted by Students</h1>
+        <p>Explore the impact we've made with our resources, community, and products!</p>
+
+        <div class="statsgrid">
+            <div class="grid"><i class="fa-solid fa-book"></i>
+                <span class="records">1000+</span>
+                <span>Pyqs Available</span>
+            </div>
+            <div class="grid"><i class="fa-solid fa-user-graduate"></i>
+                <span class="records">500+</span>
+                <span>Senior Guides</span>
+            </div>
+            <div class="grid"><i class="fa-solid fa-box"></i>
+                <span class="records">300+</span>
+                <span>Resources</span>
+            </div>
+            <div class="grid"><i class="fa-solid fa-users"></i>
+                <span class="records">2000+</span>
+                <span>Active Users</span>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="features">
+
+        <h1>Our Features</h1>
+        <div class="featuresdiv">
+            <div class="featurebox">
+                <i class="fa-solid fa-user-graduate"></i>
+                <h2>PYQs Available</h2>
+                <p>Access past year question papers, understand trends, and improve strategies.</p>
+            </div>
+            <div class="featurebox">
+                <i class="fa-solid fa-book"></i>
+                <h2>Senior Mentorship</h2>
+                <p>Connect with seniors for guidance, tips, and support throughout your college journey.</p>
+            </div>
+            <div class="featurebox">
+                <i class="fa-solid fa-users"></i>
+                <h2>Student Store</h2>
+                <p>Access a variety of student resources, including study materials, guides, and more.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faqs">
+
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faqsdiv">
+            <div class="faqbox"> <span>What is the purpose of this platform?</span> <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="faqbox"> <span>How can I access study materials?</span> <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="faqbox"> <span>Is there a mobile app available?</span> <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="faqbox"> <span>How do I connect with seniors?</span> <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="faqbox"> <span>What resources are available for exam preparation?</span> <i
+                    class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="contact">
+            <h1>Connect with Us</h1>
+            <p>Email: studentsenior.help@gmail.com</p>
+            <p>Phone: +91 9455346151</p>
+        </div>
+        <div class="midfooter">
+            <div class="abcd">
+                <p>Contact Us</p>
+                <p>About Us</p>
+                <p>Privacy Policy</p>
+                <p>T&C</p>
+                <p>Refund Policy</p>
+            </div>
+            <p>© 2024 Student Senior. All rights reserved.</p>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
