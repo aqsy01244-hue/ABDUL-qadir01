@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<!--Question Number-1-->
+    <h3 style="text-align: center;">Basic Form</h3>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <input type="submit">
+        <br><br><hr>
+    </form>
+    <!--Question Number-2-->
+    <h3 style="text-align: center;">Use of Action Tag in forms</h3>
+    <p>When the user have filled the form, action tag is used to specify the URL where the form data should be sent after submission of the form. <br><br> EXAMPLE-: <br></p>
+    <form action="/process">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname">
+        <br><br>
+        <label for="lname">Last name</label>
+        <input type="lname" name="lname" id="lname">
+        <br><br>
+        <input type="submit">
+        <br><br><hr>
+    </form>
+    <!--Question Number-3-->
+    <h3 style="text-align: center;">Input Types</h3>
+    <form action="#">
+        <label for="pass">Enter Password</label>
+        <input type="password" name="pass" id="pass">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="" id="" min="18">
+        <br><br>
+        <input type="checkbox" name="terms" id="terms" required>
+        <label for="terms">Accept Terms & Conditions.</label>
+        <br><br>
+        <input type="submit">
+        <br><br><hr>
+    </form>
+    <!--Question Number-4-->
+    <h3 style="text-align: center;">Radio & checkbox buttons</h3>
+    <form action="#">
+        <span></span>Select Gender :</span>
+        <input type="radio" name="radio1" id="radio1">
+        <label for="radio1">Male</label>
+        <input type="radio" name="radio2" id="radio2">
+        <label for="radio2">Female</label>
+        <input type="radio" name="radio3" id="radio3">
+        <label for="radio3">Other</label>
+        <br>
+        <span>Select Hobbies (can select more than one) :</span>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <label for="checkbox1">Sports</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <label for="checkbox2">Music</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3">
+        <label for="checkbox3">Gaming</label>
+        <input type="checkbox" name="checkbox4" id="checkbox4">
+        <label for="checkbox4">Art</label>
+        <br><br>
+        <input type="submit">
+        <br><br><hr>
+    </form>
+    <!--Question Number-5-->
+    <h3 style="text-align: center;">Select Dropdown & Textarea</h3>   
+    <form action="#">
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">Palestine</option>
+            <option value="uk">Russia</option>
+            <option value="uk">Turkey</option>
+        </select>
+        <br><br>
+        <label for="comments"></label>
+        <textarea id="comments" name="comments" rows="4" cols="30" placeholder="leave a comment..."></textarea>
+        <br><br>
+        <input type="submit">
+        <br><br><hr>
+    </form>
+    <!--Question Number-6-->
+    <h3 style="text-align: center;">Login Form</h3>   
+    <form action="#">
+        <label for="uname">Username</label>
+        <input type="text" name="uname" id="uname" placeholder="250010xxxx" required>
+        <br><br>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="xxxxxxxxxxx" required>
+        <br><br>
+        <input type="checkbox" name="check" id="check">
+        <label for="check">Remember Me</label>
+        <br><br>
+        <input type="submit">
+    </form>        
+</body>
+</html>
